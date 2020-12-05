@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:alert_dialog/alert_dialog.dart';
 import 'package:circular_profile_avatar/circular_profile_avatar.dart';
-
+int left_dice=1;
+int right_dice=1;
+int left_count=0;
+int right_count=0;
+String winer=null;
 class simple extends StatefulWidget {
   @override
   _simpleState createState() => _simpleState();
