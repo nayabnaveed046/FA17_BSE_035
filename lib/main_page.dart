@@ -33,19 +33,19 @@ class _main_pageState extends State<main_page> {
                     }
                         , child: Text("Simple",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.black26,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    margin: EdgeInsets.only(left: 30),
-                    child: FlatButton(onPressed: (){
-                      setState(() {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>simple()));
-                      });
-                    }
-                        , child: Text("Hard",style: TextStyle(fontSize: 30,color: Colors.white),)),
-                  ),
+  Container(
+  decoration: BoxDecoration(
+  color: Colors.black26,
+  borderRadius: BorderRadius.circular(22),
+  ),
+  margin: EdgeInsets.only(left: 35),
+  child: FlatButton(onPressed: (){
+  setState(() {
+  Navigator.push(context, MaterialPageRoute(builder: (context)=>hard()));
+  });
+  }
+  , child: Text("Hard",style: TextStyle(fontSize: 35,color: Colors.white),)),
+  ),
 
                 ],
               ),
